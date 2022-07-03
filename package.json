@@ -1,0 +1,23 @@
+{
+  "name": "tweetstracker",
+  "version": "2.0.0",
+  "description": "\"Tweets to News\"",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Priyanshukumarjha/TweetsTracker.git"
+  },
+  "author": "FundBank",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Priyanshukumarjha/TweetsTracker/issues"
+  },
+  "homepage": "https://github.com/Priyanshukumarjha/TweetsTracker#readme",
+  "dependencies": {
+    "openai": "^3.0.0",
+    "ts-node": "^10.8.2"
+  }
+}
