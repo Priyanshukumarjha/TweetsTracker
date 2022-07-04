@@ -1,23 +1,14 @@
 {
-  "name": "tweetstracker",
+  "name": "tweets-tracker",
   "version": "2.0.0",
-  "description": "\"Tweets to News\"",
+  "description": "Tweets tracker for FundBank",
   "main": "index.ts",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Priyanshukumarjha/TweetsTracker.git"
-  },
-  "author": "FundBank",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Priyanshukumarjha/TweetsTracker/issues"
-  },
-  "homepage": "https://github.com/Priyanshukumarjha/TweetsTracker#readme",
+  "repository": "https://github.com/Priyanshukumarjha/TweetsTracker.git",
+  "author": "Priyanshukj <Priyanshukj01@gmail.com>",
+  "license": "MIT",
   "dependencies": {
-    "openai": "^3.0.0",
-    "ts-node": "^10.8.2"
+    "express": "^4.18.1",
+    "ts-node": "^10.8.2",
+    "@types/twitter": "^1.7.1"
   }
 }
